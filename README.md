@@ -21,10 +21,10 @@ This system targets closer detection intervals, rate-of-rise trending across con
 ## System Architecture
 
 ```
-┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐
-│  Wayside Sensor  │────▶│  Edge Processing  │────▶│  Central Monitoring│
-│      Head        │     │      Unit         │     │      System        │
-└─────────────────┘     └──────────────────┘     └───────────────────┘
+┌─────────────────┐       ┌──────────────────┐       ┌───────────────────┐
+│  Wayside Sensor  │────▶ │  Edge Processing │────▶ │  Central Monitoring│
+│      Head        │      │      Unit        │       │      System        │
+└─────────────────┘       └──────────────────┘       └───────────────────┘
    IR pyrometers            Signal processing         Fleet-wide DB
    Wheel sensors             Axle correlation          Alarm dispatch
    Axle counter              Alarm classification       Trend analysis
